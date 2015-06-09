@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ff3da03b"
+        android:padding="2sp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo_top" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionbar"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:weightSum="3" >
+
+            <ImageButton
+                android:id="@+id/bphone"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Call Us" />
+
+            <ImageButton
+                android:id="@+id/bdirect"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/upload" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Order From History" />
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/bsms" -->
+<!--                 android:layout_width="75sp" -->
+<!--                 android:layout_height="75sp" -->
+<!--                 android:layout_gravity="center_horizontal" -->
+<!--                 android:layout_weight="1" -->
+<!--                 android:background="@drawable/message" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/textView2" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_gravity="center_horizontal" -->
+<!--                 android:text="Send Message" /> -->
+
+            <ImageButton
+                android:id="@+id/bphoto"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/camera" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Send Image" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Support" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

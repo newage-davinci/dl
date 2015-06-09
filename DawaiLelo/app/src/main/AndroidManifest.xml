@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dawailelo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_top"
+        android:label="@string/app_name"
+        android:theme="@style/CustomAppTheme" >
+        <activity
+            android:name="com.dawailelo.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dawailelo.SignUp"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.LoginPage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.PostSplash"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.MainScreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.CallUs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.SendSms"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.Medicines"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.Photo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.OptionSelector"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.TheList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.Order"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dawailelo.OrderPlaced"
+            android:label="@string/app_name" >
+        </activity>
+        </application>
+
+</manifest>
