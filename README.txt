@@ -1,1 +1,1 @@
-This is a sample for GitHub
+This is a read-only document and should not be used for publishing purposes.
